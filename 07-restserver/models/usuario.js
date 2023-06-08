@@ -5,7 +5,7 @@ const UsuarioSchema = Schema({
         type: String,
         required: [true, 'El nombre es obligatorio']
     },
-    corre: {
+    correo: {
         type: String,
         required: [true, 'El correo es obligatorio'],
         unique: true
@@ -32,4 +32,4 @@ const UsuarioSchema = Schema({
     }
 })
 
-module.exports =model('Usuarios', UsuarioSchema)
+module.exports = model('Usuarios', UsuarioSchema)

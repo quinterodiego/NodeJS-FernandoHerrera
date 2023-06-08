@@ -24,7 +24,7 @@ class Server {
     }
 
     routes() {
-       this.app.use(this.usuariosPath, router)
+        this.app.use(this.usuariosPath, router)
     }
 
     listen() {
